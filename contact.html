@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="ctn" href="contact.html">contact</a></li>
+        </ul>
+        <img src="images/menu-button.png" alt="menubutton" class="menu-btn">
+    </nav>
+    <header class="header-contactus">
+        <div class="header-contactus-content">
+            <h2 class="text-contact-us">Contact Us</h2>
+        </div>
+    </header>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <a href="#" class="fa fa-home"></a> 
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Banglore, Karnataka, IN</p>
+                    </span>
+                </div>
+           
+                <div>
+                    <a href="#" class="fa fa-phone"></a> 
+                    <span>
+                        <h5>+1 9123456789</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+            
+                <div>
+                    <a href="#" class="fa fa-envelope"></a> 
+                    <span>
+                        <h5>adventure@havefun.com </h5>
+                        <p>Email us your query </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name " required>
+                    <input type="email" placeholder="Enter your Email Address " required>
+                    <input type="text" placeholder="Enter your subject " required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="ctn">Send Message</button>
+                </form>
+
+            </div>
+    </section>
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Made possible by the Adventure Travel Trade Association, fueled by you, the Adventurer | </p>
+        <p>© 1990-2023 by IMDb.com, Inc.</p>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

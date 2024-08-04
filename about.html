@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a class="ctn" href="contact.html">contact</a></li>
+        </ul>
+        <img src="images/menu-button.png" alt="menubutton" class="menu-btn">
+    </nav>
+    <header class="header-about">
+        <div class="header-about-content">
+            <h2 class="text-about">About Us</h2>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="row">
+            <div class="col about-col">
+                <h1>We are travelling all around the world</h1>
+                <div class="line"></div>
+                 <ul>
+                    <li>At Adventure, we are passionate about providing exceptional travel experiences that leave a lasting impact. With a team of seasoned travelers and experts in various destinations, we strive to create journeys that go beyond the ordinary.</li>
+                    <li>Our mission is to curate trips that inspire, connect, and create memories that you'll cherish forever. From exploring hidden gems to indulging in luxury getaways, we're here to turn your travel dreams into reality.</li>
+                    <li>With a commitment to quality, safety, and personalized service, we partner with trusted vendors to ensure top-notch accommodations, transportation, and experiences. Your safety is our priority, and we follow industry-leading safety standards while also providing travel insurance options for added peace of mind.</li>
+                    <li>Join us on a journey of discovery and let us take you to virtually any corner of the world. Your adventure begins with Adventure.</li>
+                 </ul>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col about-col-img">
+                <img src="images/img3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Made possible by the Adventure Travel Trade Association, fueled by you, the Adventurer | </p>
+        <p>© 1990-2023 by IMDb.com, Inc.</p>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>

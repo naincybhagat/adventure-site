@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="ctn" href="contact.html">contact</a></li>
+        </ul>
+        <img src="images/menu-button.png" alt="menubutton" class="menu-btn">
+    </nav>
+    <header class="header-homepage">
+        <div class="header-content">
+            <div class="container">
+                <h2 class="text">Explore the colourful world</h2>
+            </div>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img2.jpg" alt="">
+                <h4>Everest camp Trek</h4>
+                <p>The Everest Base Camp Trek is one of the most popular and iconic treks in the world. It takes you through the heart of the Khumbu region in Nepal, offering breathtaking views of some of the world's highest peaks, including Mount Everest.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="images/img3.jpg" alt="" ">
+                <h4>Walking Holidays</h4>
+                <p>Walking holidays, also known as walking tours or trekking vacations, are trips designed for those who enjoy exploring the outdoors on foot. They provide an opportunity to experience the natural beauty, culture, and history of a destination at a leisurely pace. </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+        <p>Explore the World" is an open-ended and adventurous phrase that encourages individuals to seek out new experiences, cultures, landscapes, and activities across the globe.</p>
+        <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours and Destination</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque nulla laudantium aperiam consequatur, excepturi reprehenderit nihil veritatis sunt nobis repellendus illo ipsa esse suscipit minus! Sed iste architecto blanditiis maiores!</p>
+                <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="images/img1.jpg" alt="" style="width: 400px; height: 300px;">
+                        <img src="images/img5.jpg" alt="" style="width: 400px; height: 300px;">
+                        <img src="images/img6.jpg" alt="" style="width: 400px; height: 300px;">
+                        <img src="images/img7.jpg" alt="" style="width: 400px; height: 300px;">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Made possible by the Adventure Travel Trade Association, fueled by you, the Adventurer | </p>
+        <p>© 1990-2023 by IMDb.com, Inc.</p>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </section>
+    <script>
+        const menuBtn =document.querySelector('.menu-btn')
+        const navLinks  =document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

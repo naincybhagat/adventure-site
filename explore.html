@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="explore.html">Explore</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="ctn" href="contact.html">contact</a></li>
+        </ul>
+        <img src="images/menu-button.png" alt="menubutton" class="menu-btn">
+    </nav>
+    <header class="header-explore">
+        <div class="header-explore-content">
+            <h2 class="text-services">Services</h2>
+        </div>
+    </header>
+    <section id="services" class="services">
+       <div class="service-heading">
+        <h2>Our Services</h2>
+        <div class="line"></div>
+       </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/Customized Itineraries.jpg" alt="">
+                <h3>Customized Itineraries</h3>
+                <p>Create your dream vacation with our personalized itineraries. Whether it's a romantic getaway, family adventure, or solo exploration, we design trips tailored to your preferences.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="images/Group Tours.jpg" alt="">
+                <h3>Group Tours</h3>
+                <p>Join like-minded travelers on our carefully curated group tours. Experience the camaraderie of a shared adventure while exploring the world's most captivating destinations.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col ">
+                <img src="images/Luxury Escapes.jpg" alt="">
+                <h3>Luxury Escapes</h3>
+                <p>Indulge in opulent experiences with our luxury travel packages. From five-star accommodations to exclusive activities, we ensure you experience the epitome of comfort and extravagance.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col ">
+                <img src="images/Adventure Expeditions.jpg" alt="">
+                <h3>Adventure Expeditions</h3>
+                <p>For the adrenaline-seekers, our adventure expeditions offer thrilling experiences in breathtaking locales. Conquer mountains, explore jungles, and dive into the heart of nature.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/Cultural Immersion.jpg" alt="">
+                <h3>Cultural Immersion</h3>
+                <p>Immerse yourself in the rich tapestry of local cultures with our cultural immersion tours. Engage with communities, savor authentic cuisine, and participate in traditions that define a region.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="images/Family-Friendly Vacations.jpg" alt="">
+                <h3>Family-Friendly Vacations</h3>
+                <p>Make cherished memories with your loved ones on our family-friendly vacations. We plan activities suitable for all ages, ensuring every member of the family has a memorable time.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Made possible by the Adventure Travel Trade Association, fueled by you, the Adventurer | </p>
+        <p>© 1990-2023 by IMDb.com, Inc.</p>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
